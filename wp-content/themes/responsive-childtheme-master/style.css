@@ -1,0 +1,453 @@
+/* 
+Theme Name: Responsive Child Theme
+Theme URI: http://cyberchimps.com/guide/child-theme-example/
+Description: Responsive Child Theme
+Template: responsive
+Version: 1.0.0
+Author: CyberChimps
+Author URI: https://cyberchimps.com/
+License: GNU General Public License
+License URI: license.txt
+
+*/
+
+/* =Start From Here
+-------------------------------------------------------------- */
+#container {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+}
+#header {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/Fruits-of-Bangladesh.jpg") no-repeat scroll 0 -4px / 100% 100%;
+  float: left;
+  height: 650px;
+  margin: 0;
+  width: 100%;
+  z-index: 999999;
+}
+.header-bg {
+  background: rgba(250, 136, 27, 0.4);
+  float: left;
+  height: 700px;
+  width: 100%;
+}
+.skip-container {
+  display: none;
+}
+#logo {
+  float: left;
+  margin: -80px 5% -4%;
+  width: 18%;
+}
+.main-nav {
+  clear: both;
+  float: right;
+  margin-top: 3%;
+  width: 68%;
+}
+.menu {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  clear: both;
+  margin: 0 auto;
+}
+.menu a {
+  border-left: medium none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 0 18%;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+.menu .current_page_item a, .menu .current-menu-item a {
+  background: none;
+}
+ul.menu > li:hover {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #0A531F;
+  border-radius: 50px;
+  background: #fff;
+}
+.menu a:hover {
+  background: none;
+  color: #000;
+}
+.home-slider {
+  margin-left: 6%;
+  margin-top: 12%;
+  position: relative;
+  width: 86%;
+  z-index: 999999;
+}
+.tp-bannertimer {
+  display: none;
+}
+.tp-leftarrow.default {
+  display: none;
+}
+.tp-rightarrow {
+  display: none;
+}
+.rev_slider_wrapper.fullwidthbanner-container {
+  background: none!important;
+}
+.logo-menu-part {
+  float: left;
+  margin: 0;
+  padding: 0 0 10px;
+  width: 100%;
+  background: linear-gradient(63deg,#FA831B,#FCAE1F,#FA841B);
+}
+#post-6 h1 {
+  display: none;
+}
+
+#wrapper {
+  border: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+.part-1 .super-post.template-left > li {
+  clear: unset;
+  float: left;
+  margin: 1%;
+  width: 31%;
+}
+.sp-utility.sp-utility-default {
+  display: none;
+}
+.part-1 .sp-post-info {
+  text-align: center;
+}
+.part-1 .sp-title {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: -76%;
+  float: left;
+  margin-left: 17%;
+}
+.part-2 .sp-title {
+  color: #000;
+  float: left;
+  font-size: 35px;
+  margin-top: 7%;
+  text-transform: uppercase;
+  width: 52%;
+  line-height: 1.5;
+}
+.part-2 h7 {
+  font-size: 19px;
+  line-height: 1.5!important;
+  float: left;
+}
+.part-2 p {
+  font-size: 15px;
+  line-height: 1.5!important;
+  float: left;
+}
+.part-2 p {
+  float: left;
+  font-size: 17px;
+  line-height: 1.5 !important;
+  width: 49%;
+  text-align: justify;
+}
+.part-2 {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/parallax-1-2050x1450.jpg") no-repeat scroll 0 0 / 100% 100%;
+  float: left;
+  height: 400px;
+  background-attachment: fixed;
+}
+.bg {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/bg-parallax-left.png") no-repeat scroll 0 0 / 110% 100%;
+  float: left;
+  height: 400px;
+  padding: 0 2%;
+}
+.part-3 {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/bg-box.jpg") repeat scroll 0 0;
+}
+.part-3 > h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  float: left;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.part-3 li {
+  float: left;
+  width: 46% !important;
+}
+.part-3 li h3 {
+  color: #fff;
+  float: right;
+  margin-top: -30% !important;
+  width: 55%;
+  font-size: 20px!important;
+  font-weight: 100;
+}
+.attachment-shop_catalog.size-shop_catalog.wp-post-image {
+  margin-left: 8% !important;
+  width: 200px !important;
+  margin-top: 10%!important;
+}
+.part-3 .amount {
+  color: #fff;
+  float: right;
+  font-size: 35px !important;
+  font-weight: 700;
+  margin-top: -19% !important;
+  width: 55%;
+}
+.part-3 .button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 46%;
+  margin-top: -18%;
+  border-radius: 0;
+  font-weight: 100;
+}
+
+
+
+.part-4 .sp-title {
+  color: #000;
+  float: left;
+  font-size: 27px;
+  margin-top: 7%;
+  text-transform: uppercase;
+  width: 52%;
+  line-height: 1.5;
+}
+.part-4 h7 {
+  font-size: 15;
+  line-height: 1.5!important;
+  float: left;
+}
+.part-4 p {
+  font-size: 15px;
+  line-height: 1.5!important;
+  float: left;
+}
+.part-4 p {
+  float: left;
+  font-size: 17px;
+  line-height: 1.5 !important;
+  width: 49%;
+  text-align: justify;
+}
+.part-4 {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/parallax-2-2050x1450.jpg") no-repeat fixed 0 0 / 100% 100%;
+  float: left;
+  height: 400px;
+  margin-top: -1.5%;
+}
+.bg-right {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/bg-parallax-right.png") no-repeat scroll 0 0 / 110% 100%;
+  float: left;
+  height: 400px;
+  padding: 0 2%;
+}
+.bg-right .sp-post-info {
+  float: left;
+  margin-left: 55%;
+  margin-top: -3%;
+  width: 100%;
+}
+.part-3 span a {
+  float: left;
+  margin-left: -53%;
+  margin-top: 7%;
+  width: 7%;
+  color: #fff;
+  background: gold;
+  text-align: center;
+  padding: 1%;
+}
+.post-edit-link {
+  display: none;
+}
+#footer {
+  background: rgba(0, 0, 0, 0) url("http://localhost/barakat/wp-content/uploads/2016/03/bg-box.jpg") repeat scroll 0 0;
+  clear: both;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+}
+.colophon-widget {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  float: left;
+  margin-left: 0;
+  min-height: 0;
+}
+.widget-title > h3 {
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+}
+.foo-1 > li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.foo-2 > li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.foo-3 > li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.foo-4 > li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.foo-5 > li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+#footer a {
+  color: #fff;
+}
+.powered {
+  display: none;
+}
+.scroll-top {
+  background: #FA891B none repeat scroll 0 0;
+  border-radius: 0;
+  font-size: 20px;
+  margin-top: 2%;
+  padding: 1%;
+  text-align: center;
+  width: 1.5%;
+  border-radius: 50px;
+  margin-left: 5%;
+}
+.copyright {
+  text-align: left;
+  margin-top: 3%;
+  font-size: 13px;
+  margin-left: 3%;
+  color:#FA891B;
+}
+#content-full {
+  margin-bottom: 0;
+}
+#facebooklikebox-2 {
+  float: right;
+  margin-right: 5% !important;
+  margin-top: -32% !important;
+  width: 25% !important;
+}
+.fb_iframe_widget iframe {
+  position: absolute;
+  width: 461px!important;
+}
+.part-2 .sp-post-info {
+  margin-top: -3%;
+}
+#footer-wrapper {
+  margin: 0;
+  padding: 0;
+}
+#text-7 {
+  width: 100%;
+}
+.map iframe {
+  float: left !important;
+  height: 400px;
+  width: 100%;
+}
+#footer .widget-wrapper {
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.fb_reset > div {
+  overflow: hidden;
+}
+.fb_iframe_widget iframe {
+  position: absolute;
+  width: 461px !important;
+}
+._2p3a {
+  height: 350px !important;
+  width: 96%px !important;
+}
+._2lqh {
+  width: 100%;
+}
+._2ph- {
+  padding: 8px;
+}
+._2lqg > div {
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.part-1 .sp-excerpt {
+  margin-top: -13%;
+  float: left;
+}
+.part-1 .super-post.template-left li:hover img {
+  transform: scale(1.2);
+  transition: all 2s ease-in-out 0s;
+}
+#wrapper {
+  float: left;
+  position: sticky;
+  width: 100%;
+  z-index: 9999999;
+}
+.part-2 .sp-more {
+  float: left;
+  margin-top: 4%;
+  width: 20%;
+  color: #000;
+  border: 3px solid green;
+  padding: 2%;
+  text-align: center;
+}
+.part-4 .sp-more {
+  float: left;
+  margin-top: 4%;
+  width: 20%;
+  color: #000;
+  border: 3px solid green;
+  padding: 2%;
+  text-align: center;
+}
+.part-2 .sp-more:hover {
+  background:linear-gradient(63deg,#FA831B,#FCAE1F,#FA841B);) none repeat scroll 0 0;
+}
+.part-4 .sp-more:hover {
+  background:linear-gradient(63deg,#FA831B,#FCAE1F,#FA841B);) none repeat scroll 0 0;
+}
+.mylivechat_collapsed_text {
+  background: #fa891b none repeat scroll 0 0;
+}
+.part-3 .button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover{
+background:linear-gradient(63deg,#FA831B,#FCAE1F,#FA841B);) none repeat scroll 0 0;
+}
+
+
+
+
+/*The last 29 days of the month are the hardest."- Nikola Tesla*/
